@@ -23,7 +23,7 @@ const AddCount = ({ count, addCount }) => {
           {count}---{counter}
         </span>
       </h1>
-      <button>Add To Count</button>
+      <button onClick={() => dispatch(increment())}>Add To Count</button>
     </div>
   );
 };
